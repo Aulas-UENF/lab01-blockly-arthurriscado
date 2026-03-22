@@ -4,8 +4,8 @@
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:** [Arthur Gabriel de Oliveira Coelho Riscado]
+**Matrícula:** [20261100048]
 ---
 
 ## 🎯 Objetivo

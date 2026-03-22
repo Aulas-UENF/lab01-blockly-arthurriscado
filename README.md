@@ -46,13 +46,13 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 
 ## 3. Estratégia Utilizada
 *Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+> Com base nos níveis anteriores, foi até que fácil concluir o último nível, pois só precisava saber criar um novo círculo e colocar a cor preta, além de mudar a posição. Fui testando, primeiro usei a função de tirar a caneta e depois fui verificando qual era ângulo correto para que a tartaruga pudesse ir para a posição que o nível pedia, quando descobri, coloquei a tartaruga para andar "20" (acredito eu que sejam pixels, mas não tenho certeza de qual seria a unidade de medida correspondente) e coloquei a função "pen down". Logo após, peguei o círculo que eu já havia criado, que era um loop onde fazia uma reta para frente e para trás e virava 1 grau, esse loop se repetiu por 360 vezes, o que formou um círculo e antes disso havia definido a cor preta para a linha. Assim conclui o nível fazendo uma meia lua com 3 estrelas que já havia criado em níveis anteriores. 
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** O loop que desenha o hexágono precisa ter 6 repetições para que possa montar um e assim poder começar a montar os outros. Acredito que o ângulo que a tartaruga deva virar para desenhar a próxima linha seja de 60 graus.
   
-**B)** Escreva aqui...
+**B)** Depende de onde a tartaruga começou e parou. Deve-se começar logo pela extremidade do hexágono, o seu vertíce, então eu iria por 90 graus. O intuito é formar um quadrado no meio, que forma uma flor de hexágonos.
   
-**C)** Escreva aqui...
+**C)** Eu pensei que o ângulo interno de um hexágono seria mais ou menos 120 graus, mas o ângulo que a tartaruga virar é 180 - 120, 60 graus. E num loop, forma um hexágono, pois são os ângulos externos dele. E na B, como vai fazer uma distribuição circular de hexágonos num formato de flor, pensei que iria ficar um quadrado no meio, imaginando como seria eles montados num plano. Então para que possa seguir para o próximo hexágono, a tartaruga vira 90 graus e segue para o próximo. 
 
 ---
